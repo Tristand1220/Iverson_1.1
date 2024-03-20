@@ -1,0 +1,26 @@
+{"intents": [
+  {"tag": "greetings",
+   "patterns": ["hello", "hey", "hi", "what's up", "good day", "greetings", "hola", "how is it going"],
+   "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "See you later", "goodbye", "bye", "have a good day", "see ya", "cao", "I'm leaving"],
+   "responses": ["Goodbye!", "See you later!", "Sad to see you go :("]
+  },
+  {"tag": "name",
+   "patterns": ["what is your name", "who are you", "what are you", "what should I call you", "what do you go by", "tell me about yourself"],
+   "responses": ["You can call me Iverson!", "I'm Iverson!", "I'm an AI assitant, Iverson!"]
+  },
+  {"tag": "age",
+   "patterns": ["how old are you?", "how old", "how old is Iverson", "age?", "what is your age"],
+   "responses": ["My age starts when the program is on, and ends when it's terminated"]
+  },
+  {"tag": "hours",
+   "patterns": ["when are you open", "when do you close?", "hours?", "hours of operation"],
+   "responses": ["24/7"]
+  },
+  {"tag": "hours",
+   "patterns": ["when are you open", "when do you close?", "hours?", "hours of operation"],
+   "responses": ["24/7"]
+  }
+]}
